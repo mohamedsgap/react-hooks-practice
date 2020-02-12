@@ -20,10 +20,9 @@ function App() {
             <li>App_useRef.js </li>
             <li>App_useCallback.js</li>
             <li>App_useLayoutEffect.js</li>
-            <li>App_useState.js </li>
             <li>App_useReducer.js</li>
             <li>App_useMemo.js</li>
-            <li>App_useContect.js</li>
+            <li>App_useContext.js</li>
           </ul>
         </ul>
       </div>
