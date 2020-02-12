@@ -1,24 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+// practice React Hooks/ useState.
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="content">
+        <h1>Mohamed learns React Hooks</h1>
+        <h4>To see the best practice code that I have learnt to write </h4>
+        <ul>
+          <li>clone this repo</li>
+          <li>cd to src folder</li>
+          <li>cd to Hooks folder</li>
+          <li>you will find the code files like this:</li>
+          <ul>
+            <li>App_useState.js</li>
+            <li>App_useEffect.js </li>
+            <li>App_useRef.js </li>
+            <li>App_useCallback.js</li>
+            <li>App_useLayoutEffect.js</li>
+            <li>App_useState.js </li>
+            <li>App_useReducer.js</li>
+            <li>App_useMemo.js</li>
+            <li>App_useContect.js</li>
+          </ul>
+        </ul>
+      </div>
     </div>
   );
 }
