@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from './Layout';
 
-const user = { name: 'Medhat Dawoud' };
-const theme = { name: 'Black-Theme' };
+const user = { name: Mohamed' };
+const theme = { name: 'yellow-Theme' };
 
 export const UserContext = React.createContext();
 export const ThemeContext = React.createContext();
