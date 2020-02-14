@@ -10,6 +10,8 @@ import App from './Hooks/App_useCallback'
 import App from './Hooks/App_useLayoutEffect'
 import App from './Hooks/App_useReducer'
 import App from './Hooks/App_useMemo'
+import App from './Hooks/App_useContext'
+
 */
 ReactDOM.render(<App />, document.getElementById('root'));
 
